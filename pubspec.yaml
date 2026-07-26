@@ -1,15 +1,15 @@
 name: kincaisse
 description: Caisse Offline Securisee RDC
+publish_to: 'none'
 version: 1.0.0+1
+
 environment:
   sdk: '>=3.0.0 <4.0.0'
+
 dependencies:
   flutter:
     sdk: flutter
-  sqflite_sqlcipher: ^2.3.3
   path: ^1.8.3
-  flutter_secure_storage: ^9.0.0
-  uuid: ^4.2.2
+
 flutter:
   uses-material-design: true
-  
